@@ -1,0 +1,6 @@
+Mail and Calender:Get-AppxPackage -AllUsers Microsoft.windowscommunicationsapps | Remove-AppxPackage
+Your Phone:Get-AppxPackage -AllUsers Microsoft.YourPhone | Remove-AppxPackage
+People:Get-AppxPackage -AllUsers *People* | Remove-AppxPackage
+Xbox:Get-AppxPackage -AllUsers *xbox* | Remove-AppxPackage
+Solitaire:Get-AppxPackage -AllUsers Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage
+Xbox Game Overlay:Get-AppxPackage -AllUsers Microsoft.XboxGamingOverlay | Remove-AppxPackage
